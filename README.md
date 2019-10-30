@@ -13,37 +13,37 @@ Script Python responsável por:
 ## app.py
 Controller Python com os endpoints da API. Endpoints:
 
-1. **http://localhost:5000/estudantes**
+###1. **http://localhost:5000/estudantes**
   - Listar todos os itens de uma modalidade em um período, ordenados por data.
   - **a.** Tipo da requisição: **GET**
   - **b.** Parâmetros: modalidade, data de início e data de fim
   - **c.** Retorno: lista de todos os itens com modalidade, filtrando pelo período passado e ordenando de forma decrescente pela data dos documentos.
 
-2. **http://localhost:5000/cursos**
+###2. **http://localhost:5000/cursos**
   - Listar todos os cursos de um campus
   - **a.** Tipo da requisição: **GET**
   - **b.** Parâmetros: campus
   - **c.** Retorno: lista de cursos do campus
 
-3.**http://localhost:5000/alunos** 
+###3. **http://localhost:5000/alunos** 
   - Descobrir número total de alunos num campus em um dado período
   - **a.** Tipo de requisição: **GET**
   - **b.** Parâmetros: campus, data de início e data de fim
   - **c.** Retorno: número de alunos do campus no período
 
-4. **http://localhost:5000/cadastrar** 
+###4. **http://localhost:5000/cadastrar** 
   - Cadastrar alunos
   - **a.** Tipo da requisição: **POST**
   - **b.** Parâmetros: nome, idade_ate_31_12_2016, ra, campus, município, curso, modalidade, nivel_do_curso, data_inicio
   - **c.** Retorno: sucesso/erro
 
-5. **http://localhost:5000/aluno** 
+###5. **http://localhost:5000/aluno** 
   - Buscar aluno
   - **a.** Tipo da requisição: **GET**
   - **b.** Parâmetro: ra
   - **c.** Retorno: todos os dados do aluno
 
-6. **http://localhost:5000/remover** 
+###6. **http://localhost:5000/remover** 
   - Remover aluno do banco
   - **a.** Tipo da requisição: **DELETE**
   - **b.** Parâmetros: ra, campus
